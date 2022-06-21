@@ -7,18 +7,18 @@ export default {
 };
 
 export const Basic = () => {
-  const name = "HDip Computer Science";
-  const twoModules = [
+  const course = "HDip Computer Science";
+  const modules = [
     {
       name: "DevOps",
-      noLectures: 1,
-      noPracticals: 2,
+      noLectures: 4,
+      noPracticals: 5,
     },
     {
       name: "Enterprise Web Dev",
-      noLectures: 2,
-      noPracticals: 3,
+      noLectures: 6,
+      noPracticals: 7,
     },
   ];
-  return <CourseModulesWithProps modules={twoModules} course={name} />;
+  return <CourseModulesWithProps modules={modules} course={course} />;
 };
