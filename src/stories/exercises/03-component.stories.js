@@ -1,21 +1,21 @@
-import React from "react";
-import CourseModulesWithProps from "../../components/exercises/03_props";
+import React from 'react';
+import CourseModulesWithProps from '../../components/exercises/03_props';
 
 export default {
-  title: "Exercises/03 - component with props",
+  title: 'Exercises/03 - component with props',
   component: CourseModulesWithProps,
 };
 
 export const Basic = () => {
-  const course = "HDip Computer Science";
+  const course = 'HDip Computer Science';
   const modules = [
     {
-      name: "DevOps",
+      name: 'DevOps',
       noLectures: 4,
       noPracticals: 5,
     },
     {
-      name: "Enterprise Web Dev",
+      name: 'Enterprise Web Dev',
       noLectures: 6,
       noPracticals: 7,
     },
